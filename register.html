@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <h2>
+            <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">about us</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li><a href="contract.html">Contract</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+
+             
+            </ul>
+        </h2>
+    </header>
+    <h1>Register page</h1>
+    <form autocomplete="off" novalidate method="get">
+     <div>
+            <label for="Fullname">FullName:</label>
+            <input type="text" id="Fullname" placeholder="enter your name" value="mr/mrs" required name="Fullname" autofocus>
+     </div><br>
+     <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="enter your email" required>
+     </div><br>
+     <div>
+            <label for="Password">Password:</label>
+            <input type="password" id="password" placeholder="enter your password" required>
+     </div><br>
+     <div>
+        <label for="moblie">moblie:</label>
+        <input type="number" id="moblie" placeholder="0000000" step="100" required>
+ </div><br>
+     <div>
+        <label for="DOB">DOB:</label>
+        <input type="date">
+    </div><br>
+    <div>
+        <label for="pin">pin:</label>
+        <input type="text" placeholder="enter 4 digits" maxlength="4">
+    </div><br>
+    <div>
+        <label for="upload">upload:</label>
+        <input type="file" multiple>
+    </div><br>
+    <div> 
+        <label for="Gender">Gender:</label>
+        
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        <input type="radio" name="Gender" value="Others">Others
+    
+    </div><br>
+    <div>
+        <label for="qualification">qualification</label>
+        <select name="qualification">
+            <option value="">chosse your option</option>
+            <option value="under Graduate">under Graduate</option>
+            <option value="Graduate">Graduate</option>
+            <option value="Post Graduate">Post Graduate</option>
+            <option value="PHD">PHD</option>
+        </select></div><br>
+        
+        <div>
+            <label for="address">Address></label>
+            <textarea name="50" rows="15"></textarea>
+        </div><br>
+    </div>
+    <div>
+        <input type="checkbox">I Accept
+    </div><br>
+    <div>
+        <input type="submit" value="Register">
+        <input type="reset" value="cancel">
+    </div>
+    </form>
+    <p>if You Have An Account <a href="login.html">Login here</a></p>
+    
+    
+</body>
+</html>
